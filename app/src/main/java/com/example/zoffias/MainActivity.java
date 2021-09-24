@@ -36,5 +36,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void switchAct(Class<? extends Activity> x){
         Intent intent = new Intent(this, x);
         startActivity(intent);
+        //a
     }
 }
